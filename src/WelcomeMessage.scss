@@ -1,0 +1,68 @@
+.cedar_welcome_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.cedar_welcome_message {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 1 35%;
+  justify-content: center;
+
+  &--name {
+    color: #13126C;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 16px;
+    font-family: serif;
+  }
+
+  &--body {
+    color: #171731;
+    width: 376px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial;
+  }
+}
+
+.cedar_balance_details {
+  display: flex;
+  justify-content: center;
+  flex: 0 1 65%;
+  background-color: #FFF;
+  padding: 32px;
+  border-radius: 32px 32px 0 0;
+
+  &_content {
+    width: 376px;
+  }
+
+  &_content_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+
+    span:first-child {
+      color: #65657B;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: Arial;
+    }
+
+    span:last-child {
+      color: #13126C;
+      font-size: 28px;
+      line-height: 36px;
+      font-family: serif;
+    }
+  }
+}

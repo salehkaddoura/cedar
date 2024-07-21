@@ -1,0 +1,38 @@
+.cedar_form_group {
+  position: relative;
+  margin-bottom: 8px;
+
+  &__icon {
+    position: absolute;
+    right: 14px;
+    top: 34px;
+  }
+}
+
+.cedar_input {
+  display: block;
+  border: 1px solid #6D7088;
+  border-radius: 8px;
+  padding: 12px 16px;
+  width: 100%;
+
+  &.error {
+    border: 1px solid #C34648;
+  }
+
+  &__label {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #65657B;
+    margin-bottom: 6px;
+
+    &.error {
+      color: #C34648;
+      font-weight: 400;
+      margin-bottom: 0;
+      margin-top: 4px;
+    }
+  }
+}
